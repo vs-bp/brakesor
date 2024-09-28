@@ -1,21 +1,15 @@
 
 import net.sf.openrocket.simulation.extension.AbstractSimulationExtension;
-import net.sf.openrocket.rocketcomponent.FinSet;
 import net.sf.openrocket.rocketcomponent.FlightConfiguration;
 import net.sf.openrocket.rocketcomponent.RocketComponent;
-import net.sf.openrocket.rocketcomponent.TrapezoidFinSet;
 import net.sf.openrocket.simulation.FlightEvent;
 import net.sf.openrocket.simulation.SimulationConditions;
 import net.sf.openrocket.simulation.exception.SimulationException;
 import net.sf.openrocket.simulation.SimulationStatus;
 import net.sf.openrocket.simulation.FlightEvent.Type;
-import net.sf.openrocket.simulation.exception.SimulationException;
 import net.sf.openrocket.simulation.listeners.AbstractSimulationListener;
-import net.sf.openrocket.util.Coordinate;
- /**
-  * Simulation extension that launches a rocket from a specific altitude.
-  */
- public class Brakesor extends AbstractSimulationExtension {
+
+public class Brakesor extends AbstractSimulationExtension {
     // Add a listener to the simulation.
     public void initialize(SimulationConditions conditions) throws SimulationException {
         conditions.getSimulationListenerList().add(new BrakesorListener());
