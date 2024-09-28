@@ -15,6 +15,9 @@ add the NSL Airbrakes extension under Airbrakes/NSL Airbrakes. In here,
 set your deployment altitude and the exact name of the part (CASE SENSITIVE)
 you want to act as your airbrakes.
 
+# Demo
+A demo file is included in the repo's main directory. (NSL OpenRocket Demo.ork)
+
 # Limitations
 Airbrake mass is not simulated when not deployed. Along with this, airbrake deployment
 is instant, and you are limited to OpenRocket's selection of parts for how to represent
