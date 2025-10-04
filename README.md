@@ -21,10 +21,8 @@ A demo file is included in the repo's main directory. (NSL OpenRocket Demo.ork)
 # Limitations
 Airbrake mass is not simulated when not deployed. Along with this, airbrake deployment
 is instant, and you are limited to OpenRocket's selection of parts for how to represent
-your airbrake.
+your airbrakes aerodynamically. (Fins are used in the demo)
 
 # Sources
 Setup for the files and a lot of UI code (see BrakesorConfigurator.java) was based off of examples on the OpenRocket repo at
-https://github.com/openrocket/openrocket/blob/unstable/docs/source/user_guide/simulation_extensions.rst#id23
-
-All simulation code is original (this is why recommendations are welcome lol).
+https://github.com/openrocket/openrocket/blob/unstable/docs/source/user_guide/simulation_extensions.rst#id2
